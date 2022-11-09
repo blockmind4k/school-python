@@ -21,7 +21,7 @@ def text_banner():
 def merge_sort(num_array):
     mid = len(num_array)//2
 
-    if len(num_array) > 1:
+    if len(num_array) > 1: # if array size is greater than 1
         left_num_array = num_array[:mid]
         right_num_array = num_array[mid:]
 
