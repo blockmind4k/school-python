@@ -18,7 +18,6 @@ def text_banner():
 
 
 #   function for merge sort
-
 def merge_sort(num_array):
     mid = len(num_array)//2
 
@@ -65,7 +64,6 @@ def file_input():
 
     dataList = inputData.split('\n') # splits data from input.txt and converts it to a list
 
-
     for i in range(0, len(dataList), 1):
         dataList[i] = float(dataList[i]) # projecting string into a float
 
@@ -78,7 +76,6 @@ def file_input():
     for i in range(0, len(dataList), 1): # iterates for every element in list
         outputData.write(str(dataList[i])) # writes each element from the list onto the output file
         outputData.write('\n')
-
 
 #   enter the input manually for number list sorting 
 def func_numlist(): #numbers ascending sort
@@ -143,7 +140,6 @@ while True:
         print('3. Exit')
 
         var_usr_1 = int(input('Choose a number from the menu to proceed: '))
-        
         
         if (var_usr_1 == 1):
             # numeric sorting
